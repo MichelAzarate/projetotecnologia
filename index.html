@@ -7,11 +7,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <title>Tecnologia</title>
     <style>
-         #dvslider{
-            width: 100%;
-            height: 300px;
-            border: 1px solid #000;
-        }
+      
     </style>
 </head>
 <body>
@@ -28,7 +24,15 @@
         <article>
             <h1>Tecnologia</h1>
             <p><strong>Tecnologia</strong> (do grego τέχνη — "técnica, arte, ofício" e -λογία[2] — "estudo") é o conjunto de técnicas, habilidades, métodos e processos usados na produção de <strong>bens</strong> ou serviços, ou na realização de objetivos, como em investigações científicas.</p>
-            <div id="dvslider">olá</div>
+            <section>
+                <div id="dvslider">
+                    <button class="btSlider" onclick="troca(-1)" ><</button>
+                    <div id="dvload">
+                        <div id="dvbarra"></div>
+                    </div>
+                    <button class="btSlider" onclick="troca(1)">></button>
+                </div>
+            </section>
 
            <p>A forma mais simples de <strong>tecnologia</strong> é o desenvolvimento e a utilização de ferramentas básicas. A descoberta <strong>pré-histórica</strong> de como controlar o <strong>fogo</strong> e a subsequente Revolução <strong>Neolítica</strong> aumentaram a disponibilidade de fontes de <strong>alimento</strong>, enquanto a invenção da roda auxiliou <strong>humanos</strong> a viajar, transportar cargas e controlar seu ambiente.</p>
             <div class="vidio">
