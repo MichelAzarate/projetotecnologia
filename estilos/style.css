@@ -145,9 +145,10 @@ section{
     cursor: pointer;
     outline: none;
     border: none;
+    width: 20px;
 }
 #dvload{
-    width: 800vh;
+    width: 100%;
     height: 5px;
     margin-top: 50%;
     border: 2px solid rgba(255, 255, 255, .3);
