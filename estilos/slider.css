@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#dvslider{
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor2) );
+}
+.btSlider{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 30%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 20px;
+}
+#dvload{
+    width: 100%;
+    height: 5px;
+    margin-top: 50%;
+    border: 2px solid rgba(255, 255, 255, .3);
+}
+#dvbarra{
+    width: 0%;
+    height: 100%;
+    background-color: #fff;
+}
+div.vidio{
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+.vidio > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

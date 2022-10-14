@@ -1,0 +1,87 @@
+:root{
+    --cor0:#05daf24c;
+    --cor1:#023e73;
+    --cor2:#049DD9;
+    --cor3:#0468bf;
+    --cor4:#011526;
+    --cor5:#011220ea;
+    --font-padrao: arial, verdana, helvetica, sans-serif;
+    --font-destaque: courier;
+    --font-destaque: courier;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.h1{
+    padding: 10px;
+    margin: 10px 0px;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.315);
+}
+.formulario{
+    /* max-width: 320px; */
+    /* max-width: 170px; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor0)) ;
+    width: 100%;
+}
+.formulario h2{
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+form label {
+    color: white;
+    font-size: 21px;
+    margin-bottom: 2px;
+}
+form input{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    margin-bottom: 2px;
+    font-size: 21px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 20px;
+}
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: none
+    font-size: 21px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+form textarea:focus{
+    border-radius: 20px;
+}
+form button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 21px;
+    background: transparent;
+    border: 2px solid black;
+    color: wheat;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background: var(--cor4);
+    color: wheat;
+    border-radius: 21px;
+
+}
